@@ -16,8 +16,8 @@ import CXExtensions
 import FoundationNetworking
 #endif
 
-private let kugouSearchBaseURLString = "http://lyrics.kugou.com/search"
-private let kugouLyricsBaseURLString = "http://lyrics.kugou.com/download"
+private let kugouSearchBaseURLString = "https://lyrics.kugou.com/search"
+private let kugouLyricsBaseURLString = "https://lyrics.kugou.com/download"
 
 extension LyricsProviders {
     public final class Kugou {
